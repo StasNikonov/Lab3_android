@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть текст" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radio_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Відкрити"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
